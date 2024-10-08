@@ -1,0 +1,21 @@
+{
+  "name": "supabasecrud-node-express",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1"
+  },
+  "nodemon": {
+    "log": "combined.log"
+  }
+}

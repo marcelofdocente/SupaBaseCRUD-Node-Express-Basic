@@ -1,0 +1,27 @@
+/* Estilização básica para a interface */
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#cadastro, #consulta {
+    margin: 20px auto;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#tabela-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabela-usuarios th, #tabela-usuarios td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
